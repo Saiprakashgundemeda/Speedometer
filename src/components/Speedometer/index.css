@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bgSection {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  padding-top: 30px;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+.image {
+  padding-top: 30px;
+  height: 40vh;
+  padding-bottom: 30px;
+}
+.speedHeading {
+  color: white;
+}
+.paragraph {
+  color: white;
+}
+.accelerateBtn {
+  color: white;
+  background-color: #0b69ff;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-right: 5px;
+}
+.applyBrakeBtn {
+  color: white;
+  background-color: transparent;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  margin-left: 5px;
+}
